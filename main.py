@@ -132,6 +132,21 @@ def send_message(to_user, access_token, region_name, weather, temp, feelsLike, v
     day = localtime().tm_mday
     today = datetime.date(datetime(year=year, month=month, day=day))
     week = week_list[today.isoweekday() % 7]
+     # 获取今日课程
+     if week == " 星期日 "：
+     elif week= config ["zhou7"]
+     if week == " 星期一 "：
+     elif week= config ["zhou1"]
+     if week == " 星期二 "：
+     elif week= config ["zhou2"]
+     if week == " 星期三 "：
+     elif week= config ["zhou3"]
+     if week == " 星期四 "：
+     elif week= config ["zhou4"]
+     if week == " 星期五 "：
+     elif week= config ["zhou5"]
+     if week == " 星期六 "：
+     elif week= config ["zhou6"]
     # 获取在一起的日子的日期格式
     love_year = int(config["love_date"].split("-")[0])
     love_month = int(config["love_date"].split("-")[1])
