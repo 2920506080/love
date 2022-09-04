@@ -199,7 +199,10 @@ def send_message(to_user, access_token, region_name, weather, temp, feelsLike, v
             "note_ch": {
                 "value": note_ch,
                 "color": get_color()
-
+            },
+            "keChen": {
+                "value": note_ch,
+                "color": get_color()
             }
         }
     }
