@@ -133,7 +133,7 @@ def send_message(to_user, access_token, region_name, weather, temp, feelsLike, v
     today = datetime.date(datetime(year=year, month=month, day=day))
     week = week_list[today.isoweekday() % 7]
      # 获取今日课程
-    if week == " 星期日 "：
+     if week == " 星期日 "：
      elif week= config ["zhou7"]
      if week == " 星期一 "：
      elif week= config ["zhou1"]
