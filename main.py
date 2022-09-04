@@ -132,7 +132,7 @@ def send_message(to_user, access_token, region_name, weather, temp, feelsLike, v
     day = localtime().tm_mday
     today = datetime.date(datetime(year=year, month=month, day=day))
     week = week_list[today.isoweekday() % 7]
-        #获取今日课程
+    #获取今日课程
     if week == "星期日":
         keChen = config["zhou7"]
     elif week == "星期一":
